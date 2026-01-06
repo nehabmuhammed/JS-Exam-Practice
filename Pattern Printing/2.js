@@ -13,3 +13,13 @@ for(let row = 1;row<5;row++){
     }
     console.log(line)
 }
+for(let row = 1;row<5;row++){
+    let line =""
+    let counter = 0
+    counter+=row
+    for(let col =1;col<5;col++){
+        line = line + counter + " "
+        counter +=3
+    }
+    console.log(line)
+}
